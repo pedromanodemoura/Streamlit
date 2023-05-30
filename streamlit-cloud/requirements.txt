@@ -1,0 +1,9 @@
+streamlit==1.16.0
+streamlit-aggrid==0.3.3
+pandas==1.5.2
+watchdog
+st-pages==0.3.1
+openpyxl==3.0.10
+xlsxwriter==3.0.6
+requests==2.31.0
+pyperclip==1.8.2
