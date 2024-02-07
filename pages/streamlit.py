@@ -15,7 +15,7 @@ import pyperclip
 import folium
 from streamlit_folium import st_folium, folium_static
 
-rent_data = pd.read_csv('rent_data.csv')
+rent_data = pd.read_csv('./rent_data.csv')
 
 rent_text = ''
 m = folium.Map(location=[rent_data.latitude.mean(), rent_data.longitude.mean()], 
