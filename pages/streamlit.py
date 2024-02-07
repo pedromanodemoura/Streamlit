@@ -42,7 +42,7 @@ for i, row in rent_data.iterrows():
         continue
 
     #Setup the content of the popup
-    iframe = folium.IFrame(row_text, height=233, width = 310)
+    iframe = folium.IFrame(row_text, height=240, width = 310)
     
     #Initialise the popup using the iframe
     popup = folium.Popup(iframe, min_width=300, max_width=450)
