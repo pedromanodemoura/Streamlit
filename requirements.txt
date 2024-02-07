@@ -7,3 +7,5 @@ xlsxwriter==3.0.6
 requests==2.31.0
 pyperclip==1.8.2
 inotify==0.2.10
+folium==0.15.1 
+streamlit_folium==0.18.0
