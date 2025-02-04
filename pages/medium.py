@@ -16,10 +16,10 @@ import pyperclip
 
 url = 'https://medium.com/_/graphql'
 
-with open('medium_article_query.txt') as t:
+with open('docs/medium_article_query.txt') as t:
     query = t.read()
 
-with open('medium_article_graphql.txt', encoding='utf-8') as t:
+with open('docs/medium_article_graphql.txt', encoding='utf-8') as t:
     body_str = t.read()
 
 
